@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230802 17:53:09.531" rpa="false" schemaversion="4">
+<suite id="s1" name="Robotframework Scoutpanel" source="C:\Users\karoz\OneDrive\Dokumenty\GitHub\robotframework_scoutpanel">
+<suite id="s1-s1" name="Test Login Rf" source="C:\Users\karoz\OneDrive\Dokumenty\GitHub\robotframework_scoutpanel\test_login_rf.robot">
+<test id="s1-s1-t1" name="Edit new player" line="55">
+<status status="FAIL" starttime="20230802 17:53:09.747" endtime="20230802 17:53:09.747">Test cannot be empty.</status>
+</test>
+<doc>Suite description #automated tests for scout website</doc>
+<status status="FAIL" starttime="20230802 17:53:09.553" endtime="20230802 17:53:09.748"/>
+</suite>
+<status status="FAIL" starttime="20230802 17:53:09.533" endtime="20230802 17:53:09.749"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Robotframework Scoutpanel">Robotframework Scoutpanel</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Test Login Rf">Robotframework Scoutpanel.Test Login Rf</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
