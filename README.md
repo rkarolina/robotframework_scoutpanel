@@ -8,7 +8,7 @@ Features:
 # About this project
 First of all, I used exploratory testing based on my previous experience in order to get to know the application. <p>
 Then I've created test plan and test scenarios/test cases. <p>
-My test cases was implemented in test automation.
+My test cases were implemented in test automation.
 
 # Tools
 <img alt="Pycharm" src="https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white"/>
