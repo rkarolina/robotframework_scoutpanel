@@ -1,5 +1,5 @@
 # Scouts Panel
-It's an application gathering info about players by football scouts (contact details, current club, main and second position, achievements) <p>
+It's an application which enables gathering info about players by football scouts (contact details, current club, main and second position, achievements) <p>
 Features:
 - creating player's profiles
 - adding matches and results
