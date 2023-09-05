@@ -38,7 +38,6 @@ ${PLAYERSEMAIL}    xpath=//input[@name='email']
 ${NAME}            xpath=//input[@name='name']
 ${SURNAME}         xpath=//input[@name='surname']
 ${PHONE}    xpath=//input[@name='phone']
-${PHONE}    xpath=//input[@name='weight']
 ${WEIGHT}   xpath=//input[@name='weight']
 ${HEIGHT}   xpath=//input[@name='height']
 ${AGE}             xpath=//input[@name='age']
@@ -241,7 +240,7 @@ Type in password
 Click on the Sign in button
     Click Element   ${SIGNINBUTTON}
 Click on the Submit button
-    Click Element    xpath=//*[@type='submit']
+    Click Element    ${PLAYERSUBMITBUTTON}
 Click on Players Button
     Wait Until Element Is Visible       ${MAINPAGELINK}
     Title Should Be     Scouts panel
