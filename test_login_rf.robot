@@ -114,7 +114,7 @@ Downoload Csv file
     Assert Dashboard
     Click on Players Button
     Click on the DownloadCSV button
-#    Assert players
+    Assert players
     [Teardown]    Close Browser
 Add new player
     Open login page
@@ -123,7 +123,7 @@ Add new player
     Click on the Sign in button
     Assert Dashboard
     Click on the Add player button
-#    Assert Add Player Page
+    Assert Add Player Page
     Type In Player Email
     Type in name
     Type in surname
@@ -140,7 +140,7 @@ Add new player
     Type In Ninety Minutes
     Type In Facebook
     Click add or edit player submit button
-#    Assert edit player page
+    Assert edit player page
     [Teardown]    Close Browser
 Filter player
     Open login page
@@ -149,7 +149,7 @@ Filter player
     Click on the Sign in button
     Assert Dashboard
     Click on Players Button
-#    Assert Players
+    Assert Players
     Click Filter Button
     Type In Filtered Name
     Type In Filtered Surnname
@@ -177,7 +177,7 @@ Add new match
     Type In Filtered Max Rate
     Click Filter Close Button
     Click First Player Result
-#    Assert players
+    Assert players
     Click matches button
     Click On Add Match Button
     Type In My Team
@@ -194,49 +194,49 @@ Add new match
     Type In General
     Type In Rating
     Click On Submit Match Button
-#    Assert Matches
+    Assert Matches
     [Teardown]    Close Browser
 Edit new player
     Open login page
     Type in email
     Type in password
     Click on the Sign in button
-#    Assert Dashboard
+    Assert Dashboard
     Click On Players Button
-#    Assert Players
+    Assert Players
     Click Filter Button
     Type In Filtered Min Rate
     Type In Filtered Max Rate
     Click Filter Close Button
     Click First Player Result
-#    Assert Edit Player Page
+    Assert Edit Player Page
     Clear filled players email
     Type In Player Email
-#    Type in name
-#    Type in surname
-#    Type In Phone
-#    Type In Weight
-#    Type In Height
-#    Type in age
-#    Type In Club
-#    Type In Level
-#    Type in main position
-#    Type In Second Position
-#    Type In Achievements
-#    Type In Laczy Nas Pilka
-#    Type In Ninety Minutes
-#    Type In Facebook
+    Type in name
+    Type in surname
+    Type In Phone
+    Type In Weight
+    Type In Height
+    Type in age
+    Type In Club
+    Type In Level
+    Type in main position
+    Type In Second Position
+    Type In Achievements
+    Type In Laczy Nas Pilka
+    Type In Ninety Minutes
+    Type In Facebook
     Click add or edit player submit button
-##    Assert edit player page
+    Assert edit player page
     [Teardown]    Close Browser
 *** Keywords ***
 Open login page
     Open Browser    ${LOGIN URL}    ${BROWSER}
     Title Should Be     Scouts panel - sign in
 Type in email
-    Input Text   ${EMAILINPUT}   user07@getnada.com
+    Input Text   ${EMAILINPUT}   hidden
 Type in password
-    Input Text   ${PASSWORDINPUT}   Test-1234
+    Input Text   ${PASSWORDINPUT}   Hidden
 Click on the Sign in button
     Click Element   ${SIGNINBUTTON}
 Click on the Submit button
